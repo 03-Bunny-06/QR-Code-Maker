@@ -4,21 +4,29 @@ Project Description:
 
 QR Maker is a Python-based utility to create QR codes from image URLs or UPI IDs. This project offers a simple interface to generate QR codes for personal or professional use, with customization options like unique names and color schemes.
 
+<hr/>
+
 Features:
 
 * Image to QR Code: Converts an image URL into a QR code.
 * UPI to QR Code: Generates a QR code for UPI payment links.
 * Customization: Allows setting unique names for QR code files and adjusts color schemes for better visibility.
 
+<hr/>
+
 Prerequisites:
 
 * Ensure you have Python installed on your system. Additionally, install the required library by running: pip install qrcode[pil]
+
+<hr/>
 
 How to Run:
 
 1. Clone the repository or download the script file.
 2. Open a terminal/command prompt and navigate to the project directory.
 3. Run the script using: python qr_maker.py
+
+<hr/>
 
 Usage Instructions:
 
@@ -33,6 +41,8 @@ Usage Instructions:
 * Enter your UPI ID (e.g., example@upi).
 * Provide a custom name for the QR code file.
 * The QR code will be generated, displayed, and saved as <custom_name>.png.
+
+<hr/>
 
 Example Walkthrough:
 
@@ -51,11 +61,15 @@ UPI to QR Code
 2. Output:
 * A QR code with white foreground and black background is displayed and saved as my_upi_qr.png.
 
+<hr/>
+
 Customization:
 
 The QR code styles can be customized by modifying:
 * Fill Color: Change the fill_color parameter in the make_image method.
 * Background Color: Change the back_color parameter in the make_image method.
+
+<hr/>
 
 Code Overview:
 
