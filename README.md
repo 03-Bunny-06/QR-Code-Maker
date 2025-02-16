@@ -79,8 +79,6 @@ The script has three main functions:
 - `image_qr()`: Handles QR code generation for image URLs.
 - `upi_qr()`: Handles QR code generation for UPI IDs.
 
----
-
 ![Orange Modern Attractive YouTube Thumbnail](https://github.com/user-attachments/assets/e7b78a98-5389-4016-bf9e-884726a55dfa)
 
 ![Orange Modern Attractive YouTube Thumbnail (1)](https://github.com/user-attachments/assets/ccc4fa0c-f080-4583-8cfb-00ebf6c0478a)
